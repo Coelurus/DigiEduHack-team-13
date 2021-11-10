@@ -1,0 +1,66 @@
+/* background: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/Amaranthe_-_Wacken_Open_Air_2018-0672.jpg); */
+/* css rule */
+/* selectors(h1) */
+/* declaration block*/
+/* declaration */
+/* property(color) */
+/* value(blue) */
+/* class selectors (.green) – mají na začázku tečku */
+
+/* px - absolutní/neměnné */
+/* em - záleží na rodiči */
+/* rem - záleží na kořenu - html/default browser style */
+/* vh/vw = viewheight*viewwidth - procenta obrazovky */
+/* calc() - matematické výpočty; calc(100vh - 100px);*/
+
+/*Margin - vzdálenost mezi ohraničením a dalším prvkem
+  Border - ohraničení
+  Padding - vycpávka mezi obsahem a ohraničením */
+/* Margin nebo  */
+
+/* display: block/inline - změna vykreslování buď 
+na nový řádek neo za předchozí položku
+/* inline-block -> mžu dělat margin nahoře a dole */
+/* box-sizing: border-box - zmenší obsah, 
+aby se do určené výšky vešel i padding */
+
+/* background-size: cover-roztáhnutí na celé místo
+                    contain-vkládá nezdeformované obrázky */
+/* background-position: 100% 100%; - posun zleva doprava a zhora dolů */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("./big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-img {
+  /* border: 2px solid red; */
+  /* background: url("./img/image.jpeg"); */
+  background: url("./reverse.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("./big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
